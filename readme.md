@@ -40,6 +40,15 @@ containing the source is.
 python hello_01.py
 ```
 
+# Hello logic 01
+
+The file `hello_logic_01.py` asks the user for their favorite
+food and says different things based on what the user said.
+
+```bash
+python hello_logic_01.py
+```
+
 
 
 
