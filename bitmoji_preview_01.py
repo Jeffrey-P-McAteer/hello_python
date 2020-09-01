@@ -79,7 +79,7 @@ def get_bitmoji_image(**kwargs):
 
 def display_image(image):
   root = tkinter.Tk()
-  canvas = tkinter.Canvas(root, width=400, height=400)  
+  canvas = tkinter.Canvas(root, width=400, height=400)
   canvas.pack()
   img = ImageTk.PhotoImage(image)
   canvas.create_image(30, 30, anchor=tkinter.NW, image=img)
